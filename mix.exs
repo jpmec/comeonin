@@ -120,7 +120,6 @@ defmodule Comeonin.Mixfile do
       description: @description,
       package: package,
       source_url: "https://github.com/elixircnx/comeonin",
-      compilers: [:comeonin] ++ Mix.compilers,
       deps: deps
     ]
   end
